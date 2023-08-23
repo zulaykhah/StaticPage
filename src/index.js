@@ -1,14 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
+// import './src/Style.css';
+import Footer from './Components/Footer';
+import MainContents from './Components/MainContents';
+import Header from './Components/Header';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    
+    {/* <App /> */}
+    <Header/>
+    <MainContents/>
+    <Footer/>
   </React.StrictMode>
 );
 
